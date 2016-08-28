@@ -1,11 +1,11 @@
 {
   "name": "moin-tags",
   "main": "./lib/moin-tags",
-  "version": "0.1.0",
-  "description": "Moinmoin tags wraper.",
+  "version": "0.1.1",
+  "description": "Moinmoin tags wrapper.",
   "keywords": [
   ],
-   "repository": "https://github.com/atom/moin-tags",
+   "repository": "https://github.com/KissLick/moin-tags",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
