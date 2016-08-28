@@ -1,0 +1,15 @@
+{
+  "name": "moin-tags",
+  "main": "./lib/moin-tags",
+  "version": "0.1.0",
+  "description": "Moinmoin tags wraper.",
+  "keywords": [
+  ],
+   "repository": "https://github.com/atom/moin-tags",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

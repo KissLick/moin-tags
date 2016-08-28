@@ -1,0 +1,66 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+    'atom-text-editor': [
+        {
+            'label': 'Moin tags'
+            'submenu': [
+                {
+                    label: 'Bold',
+                    command: 'moin-tags:bold'
+                },
+                {
+                    label: 'Italica',
+                    command: 'moin-tags:italica'
+                },
+                {
+                    label: 'Underline',
+                    command: 'moin-tags:underline'
+                },
+                {
+                    label: 'Stroke',
+                    command: 'moin-tags:stroke'
+                },
+                {type: 'separator'},
+                {
+                    label: 'Smaller',
+                    command: 'moin-tags:smaller'
+                },
+                {
+                    label: 'Larger',
+                    command: 'moin-tags:larger'
+                },
+                {type: 'separator'},
+                {
+                    label: 'Superscript',
+                    command: 'moin-tags:superscript'
+                },
+                {
+                    label: 'Subscript',
+                    command: 'moin-tags:subscript'
+                },
+                {type: 'separator'},
+                {
+                    label: 'Monospace',
+                    command: 'moin-tags:monospace'
+                },
+                {
+                    label: 'Code',
+                    command: 'moin-tags:code'
+                }
+            ]
+        }
+    ]
+# 'menu': [
+#   {
+#     'label': 'Packages'
+#     'submenu': [
+#       'label': 'moin-tags'
+#       'submenu': [
+#         {
+#           'label': 'Toggle'
+#           'command': 'moin-tags:toggle'
+#         }
+#       ]
+#     ]
+#   }
+# ]
